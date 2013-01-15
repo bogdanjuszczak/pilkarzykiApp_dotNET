@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingFoosball", "MakingFoosball\MakingFoosball.csproj", "{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingFoosball.Tests", "MakingFoosball.Tests\MakingFoosball.Tests.csproj", "{4F942FC8-D1E7-4A76-98FC-03DA14899246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F942FC8-D1E7-4A76-98FC-03DA14899246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F942FC8-D1E7-4A76-98FC-03DA14899246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F942FC8-D1E7-4A76-98FC-03DA14899246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F942FC8-D1E7-4A76-98FC-03DA14899246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
