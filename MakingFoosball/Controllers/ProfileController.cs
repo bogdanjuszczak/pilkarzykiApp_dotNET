@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MakingFoosball.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,8 @@ namespace MakingFoosball.Controllers
     {
         public ActionResult Create()
         {
-            return View();
+            var p = new FoosballAppEntities().Users;
+            return View();            
         }
     }
 }
