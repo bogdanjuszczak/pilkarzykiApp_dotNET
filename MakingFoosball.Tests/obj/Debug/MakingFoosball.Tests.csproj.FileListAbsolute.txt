@@ -30,3 +30,35 @@ c:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\System.Web.WebP
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.csprojResolveAssemblyReference.cache
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.dll
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.pdb
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\MakingFoosball.Tests.dll.config
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\MakingFoosball.Tests.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\MakingFoosball.Tests.pdb
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\MakingFoosball.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\Newtonsoft.Json.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Net.Http.Formatting.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Helpers.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Http.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Http.WebHost.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Mvc.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Razor.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Optimization.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\WebGrease.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\Antlr3.Runtime.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\MakingFoosball.pdb
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\Newtonsoft.Json.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Net.Http.Formatting.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Helpers.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Http.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Http.WebHost.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Mvc.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.Razor.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.csprojResolveAssemblyReference.cache
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.dll
+d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.pdb
