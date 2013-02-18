@@ -2,7 +2,7 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="FoosballAppModelStoreContainer" CdmEntityContainer="FoosballAppEntities">
     <EntitySetMapping Name="Users">
-      <EntityTypeMapping TypeName="FoosballAppModel.Users">
+      <EntityTypeMapping TypeName="IsTypeOf(FoosballAppModel.User)">
         <MappingFragment StoreEntitySet="Users">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />

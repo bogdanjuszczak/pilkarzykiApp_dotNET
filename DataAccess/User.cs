@@ -12,7 +12,7 @@ namespace DataAccess
     using System;
     using System.Collections.Generic;
     
-    public partial class Users
+    public partial class User
     {
         public int Id { get; set; }
         public string Username { get; set; }

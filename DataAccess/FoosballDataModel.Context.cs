@@ -25,6 +25,6 @@ namespace DataAccess
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<Users> Users { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
