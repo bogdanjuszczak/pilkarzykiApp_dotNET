@@ -27,3 +27,6 @@ c:\VS Projects\MakingFoosball_WEB\MakingFoosball\bin\System.Web.WebPages.Deploym
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball\bin\System.Web.WebPages.Razor.xml
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball\obj\Debug\MakingFoosball.dll
 c:\VS Projects\MakingFoosball_WEB\MakingFoosball\obj\Debug\MakingFoosball.pdb
+C:\VS Projects\MakingFoosball_WEB\MakingFoosball\obj\Debug\MakingFoosball.csprojResolveAssemblyReference.cache
+C:\VS Projects\MakingFoosball_WEB\MakingFoosball\bin\DataAccess.dll
+C:\VS Projects\MakingFoosball_WEB\MakingFoosball\bin\DataAccess.pdb

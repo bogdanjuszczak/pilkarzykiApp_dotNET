@@ -64,3 +64,5 @@ d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\Maki
 d:\Projects\Test\github\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.pdb
 C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\EntityFramework.dll
 C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\EntityFramework.xml
+C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\DataAccess.dll
+C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\DataAccess.pdb

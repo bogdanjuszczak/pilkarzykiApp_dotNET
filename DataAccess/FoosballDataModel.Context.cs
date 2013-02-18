@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MakingFoosball.Models
+namespace DataAccess
 {
     using System;
     using System.Data.Entity;
@@ -25,6 +25,6 @@ namespace MakingFoosball.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<User> Users { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }

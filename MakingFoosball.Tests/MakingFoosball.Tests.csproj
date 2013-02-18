@@ -102,9 +102,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MakingFoosball\MakingFoosball.csproj">
+    <ProjectReference Include="..\MakingFoosball\UI.csproj">
       <Project>{32630FEE-F7F5-47BF-AD3D-79BBE4C85329}</Project>
-      <Name>MakingFoosball</Name>
+      <Name>UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
