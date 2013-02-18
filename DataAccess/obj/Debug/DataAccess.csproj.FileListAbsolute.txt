@@ -9,6 +9,5 @@ C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\bin\Debug\DataAccess.
 C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\bin\Debug\DataAccess.pdb
 C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\bin\Debug\EntityFramework.dll
 C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\bin\Debug\EntityFramework.xml
-C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\obj\Debug\DataAccess.dll
 C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\DataAccess\obj\Debug\DataAccess.pdb
