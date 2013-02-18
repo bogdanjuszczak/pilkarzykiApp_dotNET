@@ -7,15 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MakingFoosball.Models
+namespace DataAccess
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class Users
     {
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public byte[] Avatar { get; set; }
     }
 }

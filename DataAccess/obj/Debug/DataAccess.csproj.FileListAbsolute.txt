@@ -1,0 +1,7 @@
+C:\VS Projects\MakingFoosball_WEB\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\VS Projects\MakingFoosball_WEB\DataAccess\bin\Debug\DataAccess.dll
+C:\VS Projects\MakingFoosball_WEB\DataAccess\bin\Debug\DataAccess.pdb
+C:\VS Projects\MakingFoosball_WEB\DataAccess\bin\Debug\EntityFramework.dll
+C:\VS Projects\MakingFoosball_WEB\DataAccess\bin\Debug\EntityFramework.xml
+C:\VS Projects\MakingFoosball_WEB\DataAccess\obj\Debug\DataAccess.dll
+C:\VS Projects\MakingFoosball_WEB\DataAccess\obj\Debug\DataAccess.pdb

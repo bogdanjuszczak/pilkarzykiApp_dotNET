@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="FoosballAppModelStoreContainer" CdmEntityContainer="FoosballAppEntities">
+  <EntityContainerMapping StorageEntityContainer="FoosballAppModelStoreContainer" CdmEntityContainer="Entities">
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="FoosballAppModel.Users">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
