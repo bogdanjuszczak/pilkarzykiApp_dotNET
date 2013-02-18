@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using DataAccess;
+using DataAccess.Repositories;
 
 namespace MakingFoosball.Controllers
 {
@@ -12,6 +13,8 @@ namespace MakingFoosball.Controllers
         public ActionResult Create()
         {
             var p = new FoosballAppEntities().Users;
+            var ur = new UsersRepository();
+            ur.CreateUser("abc2", "gffad");
             return View();            
         }
     }

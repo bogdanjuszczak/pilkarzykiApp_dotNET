@@ -7,9 +7,9 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="100" />
     <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="100" />
-    <Property Name="Avatar" Type="image" />
+    <Property Name="Avatar" Type="varbinary(max)" Nullable="true" />
   </EntityType>
 </Schema>
