@@ -1,0 +1,3 @@
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball\obj\Debug\MakingFoosball.dll
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball\obj\Debug\MakingFoosball.pdb

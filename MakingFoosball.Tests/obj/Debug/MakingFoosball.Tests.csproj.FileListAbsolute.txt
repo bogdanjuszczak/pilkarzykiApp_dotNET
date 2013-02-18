@@ -66,3 +66,6 @@ C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\EntityFramework
 C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\EntityFramework.xml
 C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\DataAccess.dll
 C:\VS Projects\MakingFoosball_WEB\MakingFoosball.Tests\bin\Debug\DataAccess.pdb
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.csprojResolveAssemblyReference.cache
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.dll
+C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\MakingFoosball.Tests\obj\Debug\MakingFoosball.Tests.pdb
