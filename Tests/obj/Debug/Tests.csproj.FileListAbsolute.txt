@@ -1,5 +1,0 @@
-C:\VS Projects\MakingFoosball_WEB\Tests\bin\Debug\Tests.dll
-C:\VS Projects\MakingFoosball_WEB\Tests\bin\Debug\Tests.pdb
-C:\VS Projects\MakingFoosball_WEB\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
-C:\VS Projects\MakingFoosball_WEB\Tests\obj\Debug\Tests.dll
-C:\VS Projects\MakingFoosball_WEB\Tests\obj\Debug\Tests.pdb

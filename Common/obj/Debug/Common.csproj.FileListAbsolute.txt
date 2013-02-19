@@ -1,9 +1,0 @@
-C:\VS Projects\MakingFoosball_WEB\Common\bin\Debug\Common.dll
-C:\VS Projects\MakingFoosball_WEB\Common\bin\Debug\Common.pdb
-C:\VS Projects\MakingFoosball_WEB\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
-C:\VS Projects\MakingFoosball_WEB\Common\obj\Debug\Common.dll
-C:\VS Projects\MakingFoosball_WEB\Common\obj\Debug\Common.pdb
-C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\Common\bin\Debug\Common.dll
-C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\Common\bin\Debug\Common.pdb
-C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\Common\obj\Debug\Common.dll
-C:\VS Projects\FoosballApp\pilkarzykiApp_dotNET\Common\obj\Debug\Common.pdb
