@@ -3,9 +3,12 @@
 <html>
 <head>
     <title></title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
     @RenderSection("CssSection", false)
 </head>
 <body>
-    @RenderBody()
+    <div id="main">
+        @RenderBody()
+    </div>
 </body>
 </html>
