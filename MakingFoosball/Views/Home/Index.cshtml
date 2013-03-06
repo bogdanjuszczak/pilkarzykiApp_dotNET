@@ -8,13 +8,25 @@
     <link href="~/Content/CSS/home.css" rel="stylesheet" />
 }
 
-<div class="menu-square">
-    <div class="menu-option-text">Create new profile</div>
+<a href='@Url.Action("Create", "Profile")'>
+    <div class="menu-square">
+        <div class="menu-option-text">
+            Create new profile
+        </div>
+    </div>
+</a>
+<div class="menu-square grayed">
+    <div class="menu-option-text">
+        Stats
+    </div>
 </div>
-<div class="menu-square grayed"></div>
-<div class="menu-square clear grayed"></div>
-<div class="menu-square grayed"></div>
-
-@*<div style="background: yellow">
-    @Html.ActionLink("Create User", "../Profile/Create")
-</div>*@
+<div class="menu-square clear grayed">
+    <div class="menu-option-text">
+        New Game
+    </div>
+</div>
+<div class="menu-square grayed">
+    <div class="menu-option-text">
+        Coming soon...
+    </div>
+</div>
