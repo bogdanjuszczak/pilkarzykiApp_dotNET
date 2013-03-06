@@ -10,10 +10,19 @@
 
 <a href='@Url.Action("Create", "Profile")'>
     <div class="menu-square">
-        <div class="menu-option-text">
+        @if (ViewBag.IsUserAuthenticated)
+        {
+            Html.RenderPartial("_LoginOrRegister");
+        }
+        else
+        {
+            Html.RenderPartial("_UserProfile");
+        }
+            
+@*<div class="menu-option-text">
             Create new profile
+        </div>*@
         </div>
-    </div>
 </a>
 <div class="menu-square grayed">
     <div class="menu-option-text">
