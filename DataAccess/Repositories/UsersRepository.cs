@@ -6,16 +6,16 @@ namespace DataAccess.Repositories
 {
     public class UsersRepository : IUsersRepository
     {
-        public CreateUserStatus CreateUser(string username, string password)
+        public CreateUserStatus CreateUser(User user)
         {
-            var user = GetUserByUsername(username);
+            var _user = GetUserByUsername(user.Username);
 
             if (user != null)
                 return CreateUserStatus.DuplicatedUsername;
 
             using (var ctx = new FoosballAppEntities())
             {
-                ctx.Users.Add(new User() { Username = username, Password = password });
+                ctx.Users.Add(new User() { Username = user.Username, Password = user.Password });
                 ctx.SaveChanges();    
             }
 
