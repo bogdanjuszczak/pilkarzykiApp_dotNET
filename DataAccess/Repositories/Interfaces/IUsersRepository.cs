@@ -5,5 +5,6 @@ namespace DataAccess.Repositories.Interfaces
     public interface IUsersRepository
     {
         CreateUserStatus CreateUser(string username, string password);
+        User GetUserByUsername(string username);
     }
 }

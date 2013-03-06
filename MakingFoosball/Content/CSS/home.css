@@ -1,0 +1,22 @@
+﻿.menu-square {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 20px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.grayed {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.menu-option-text {
+    background: yellow;
+    color: black;
+    text-align: center;
+    margin-top: 85px;
+    font-size: 25px;
+}
