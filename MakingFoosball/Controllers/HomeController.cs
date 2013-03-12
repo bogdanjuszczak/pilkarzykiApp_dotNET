@@ -14,8 +14,6 @@ namespace MakingFoosball.Controllers
 
         public ActionResult Index()
         {
-            var user = _userRepo.GetAll();
-
             if (true)
                 ViewBag.IsUserAuthenticated = false;
             else
