@@ -5,9 +5,9 @@ namespace DataAccess.Repositories
 {
     public class UserRepository : GenericRepository<FoosballAppEntities, User>, IUserRepository
     {
-        public User GetSingle(int userId)
+        public User GetSingle(string userName)
         {
-            return GetAll().SingleOrDefault(u => u.Id == userId);
+            return GetAll().SingleOrDefault(u => u.Username == userName);
         }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IUserRepository : IGenericRepository<User>
     {
-        User GetSingle(int userId);
+        User GetSingle(string userName);
     }
 }
