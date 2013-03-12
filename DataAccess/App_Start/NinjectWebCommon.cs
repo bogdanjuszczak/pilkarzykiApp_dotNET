@@ -1,3 +1,6 @@
+using DataAccess.Repositories;
+using DataAccess.Repositories.Interfaces;
+
 [assembly: WebActivator.PreApplicationStartMethod(typeof(DataAccess.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(DataAccess.App_Start.NinjectWebCommon), "Stop")]
 
@@ -53,6 +56,7 @@ namespace DataAccess.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            kernel.Bind<IUserRepository>().To<UserRepository>();
         }        
     }
 }
