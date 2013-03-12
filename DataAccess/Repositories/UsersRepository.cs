@@ -22,11 +22,6 @@ namespace DataAccess.Repositories
             return CreateUserStatus.UserCreatedOK;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="username"></param>
-        /// <returns>User - if </returns>
         public User GetUserByUsername(string username)
         {
             using (var ctx = new FoosballAppEntities())
