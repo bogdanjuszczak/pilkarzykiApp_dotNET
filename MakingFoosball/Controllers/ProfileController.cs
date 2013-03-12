@@ -15,7 +15,7 @@ namespace MakingFoosball.Controllers
         [HttpPost]
         public ActionResult Create(User user)
         {
-            var userRepo = new UsersRepository();
+            var userRepo = new UserRepository();
             userRepo.CreateUser(user);
             return Redirect("/");
         }

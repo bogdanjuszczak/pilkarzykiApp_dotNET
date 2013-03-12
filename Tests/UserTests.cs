@@ -40,7 +40,7 @@ namespace Tests
 
         public void CreateUserTest()
         {
-            var user = new Mock<IUsersRepository>();
+            var user = new Mock<IUserRepository>();
             //user.Setup(usr => usr.CreateUser("abc", "gffad")).Returns(CreateUserStatus.DuplicatedUsername);
 
             
