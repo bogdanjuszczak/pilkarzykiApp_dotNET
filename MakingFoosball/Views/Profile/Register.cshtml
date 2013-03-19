@@ -1,0 +1,22 @@
+﻿@model DataAccess.User
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Register</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.TextBoxFor(model => model.Username)
+        </div>
+        <div>
+            @Html.PasswordFor(model => model.Password)
+        </div>
+        <div>
+            <button type="submit" id="btnRegister">Register</button>
+        </div>
+    }
+</div>

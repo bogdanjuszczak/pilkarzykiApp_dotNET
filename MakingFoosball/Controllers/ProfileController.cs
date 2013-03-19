@@ -7,13 +7,13 @@ namespace MakingFoosball.Controllers
     public class ProfileController : Controller
     {
         [HttpGet]
-        public ActionResult Create()
+        public ActionResult Register()
         {
             return View();            
         }
 
         [HttpPost]
-        public ActionResult Create(User user)
+        public ActionResult Register(User user)
         {
             var userRepo = new UserRepository();
             //userRepo.CreateUser(user);

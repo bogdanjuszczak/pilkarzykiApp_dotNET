@@ -1,0 +1,22 @@
+﻿@model DataAccess.User
+
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>LogIn</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Log In</legend>
+            <div>
+                @Html.TextBoxFor(model => model.Username)
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.Password)
+            </div>
+        </fieldset>
+    }
+</div>
