@@ -1,3 +1,22 @@
 ﻿@model DataAccess.User
 
-<div style="width: 50px; height: 50px; background-color: green">LoginOrRegister</div>
+@using (Html.BeginForm())
+{ 
+    <fieldset class="log-og-register">
+        <legend>Do you have the account?</legend>
+        <div>
+            @Html.Label("Login:")
+        </div>
+        <div>
+            @Html.TextBoxFor(model => model.Username)
+        </div>
+        <div>
+            @Html.Label("Password:")
+        </div>
+        <div>
+            @Html.PasswordFor(model => model.Password)
+        </div>
+        @*<%= Html.ActionLink("Register", "actionName", "controllerName") %>*@
+        <input id="Submit1" type="submit" value="submit" />
+    </fieldset>
+}

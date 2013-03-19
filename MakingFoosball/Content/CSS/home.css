@@ -1,11 +1,10 @@
 ﻿.menu-square {
     width: 200px;
     height: 200px;
-    background: red;
+    background: #ffcc99;
     margin: 20px;
     display: block;
     float: left;
-    cursor: pointer;
 }
 
 .grayed {
@@ -23,4 +22,21 @@
 
 .menu-option-text a {
     text-decoration: none;
+}
+
+/*     _LoginOrRegister     */
+fieldset.log-og-register {
+    border: none;
+}
+
+.log-og-register legend {
+    float: left;
+    margin: 10px 0 10px 0;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
+
+.log-og-register input {
+    width: 100%;
 }
