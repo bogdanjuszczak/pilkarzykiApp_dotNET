@@ -1,0 +1,24 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+<<<<<<< HEAD
+    background-color: gray;
+=======
+    background-color: #B9C558;
+>>>>>>> d2a5e5dc8d7e8e2949e4172cefeefa7ec59ec108
+}
+
+#main {
+    padding-top: 50px;
+    margin: 0 auto;
+    height: 100%;
+    width: 480px;
+}
+
+.clear {
+    clear: both;
+}
