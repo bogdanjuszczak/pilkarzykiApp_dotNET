@@ -17,7 +17,7 @@ namespace MakingFoosball.Controllers
         {
             var userRepo = new UserRepository();
             //userRepo.CreateUser(user);
-            return Redirect("/");
+            return Redirect("/UI/");
         }
     }
 }

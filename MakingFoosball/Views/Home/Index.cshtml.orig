@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "StartPage";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+@section CssSection
+{
+    <link href="~/Content/CSS/home.css" rel="stylesheet" />
+}
+
+<<<<<<< HEAD
+@*<a href='@Url.Action("Create", "Profile")'>*@
+<div class="menu-square">
+    @{
+        Html.RenderPartial(ViewBag.IsUserAuthenticated ? "_UserProfile" : "_LoginOrRegister");
+    }
+</div>
+@*</a>*@
+=======
+<a href='@Url.Action("Register", "Profile")'>
+    <div class="menu-square">
+        @if (ViewBag.IsUserAuthenticated)
+        {
+            Html.RenderPartial("_LoginOrRegister");
+        }
+        else
+        {
+            Html.RenderPartial("_UserProfile");
+        }
+    </div>
+</a>
+>>>>>>> 1cd838de4683389b5d79fe2ae2459ed4b9e9c057
+<div class="menu-square grayed">
+    <div class="menu-option-text">
+        Stats
+    </div>
+</div>
+<div class="menu-square clear grayed">
+    <div class="menu-option-text">
+        New Game
+    </div>
+</div>
+<div class="menu-square grayed">
+    <div class="menu-option-text">
+        Coming soon...
+    </div>
+</div>
