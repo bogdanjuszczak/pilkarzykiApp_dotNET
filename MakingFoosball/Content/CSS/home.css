@@ -20,9 +20,9 @@
     font-size: 25px;
 }
 
-.menu-option-text a {
-    text-decoration: none;
-}
+    .menu-option-text a {
+        text-decoration: none;
+    }
 
 /*     _LoginOrRegister     */
 fieldset.log-og-register {
@@ -32,11 +32,46 @@ fieldset.log-og-register {
 .log-og-register legend {
     float: left;
     margin: 10px 0 10px 0;
-    font-size: 17px;
+    font-size: 16px;
     width: 100%;
     text-align: center;
 }
 
 .log-og-register input {
+    width: 168px;
+}
+
+.log-og-register .cookie-panel {
+    display: block;
+    float: left;
     width: 100%;
+    margin-top: 8px;
+}
+
+.log-og-register input[type="checkbox"] {
+    float: left;
+    display: block;
+    width: 20px;
+    margin: 2px 5px 0 0;
+    padding: 0;
+}
+
+.log-og-register .buttons-panel {
+    display: block;
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.log-og-register .register-link {
+    color: blue;
+    display: block;
+    float: left;
+    margin: 2px 0 0 2px;
+}
+
+.log-og-register .login-button {
+    float: right;
+    width: 90px;
+    cursor: pointer;
 }

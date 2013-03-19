@@ -1,14 +1,25 @@
 ﻿using DataAccess;
 using DataAccess.Repositories;
 using System.Web.Mvc;
+using DataAccess.Repositories.Interfaces;
+using System.Linq;
 
 namespace MakingFoosball.Controllers
 {
     public class ProfileController : Controller
     {
+        private readonly IUserRepository _userRepo;
+
+        public ProfileController(IUserRepository userRepo)
+        {
+            _userRepo = userRepo;
+        }
+
         [HttpGet]
         public ActionResult Register()
         {
+            var p = _userRepo.GetAll();
+
             return View();            
         }
 

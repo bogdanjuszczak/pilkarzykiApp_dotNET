@@ -16,8 +16,14 @@
         <div>
             @Html.PasswordFor(model => model.Password)
         </div>
-        <div class=""></div>
-        @Html.ActionLink("Register", "Register", "Profile")
-        <input id="Submit1" type="submit" value="submit" />
+        <div class="cookie-panel">
+            <label>@Html.CheckBox("cbRememberMe")Remember me</label>
+        </div>
+        <div class="buttons-panel">
+            <div class="register-link">
+                @Html.ActionLink("Register", "Register", "Profile")
+            </div>
+            <input class="login-button" id="btnLogin" type="submit" value="Login" />
+        </div>
     </fieldset>
 }
