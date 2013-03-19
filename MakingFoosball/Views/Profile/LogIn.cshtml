@@ -9,14 +9,14 @@
 <div>
     @using (Html.BeginForm())
     {
-        <fieldset>
-            <legend>Log In</legend>
-            <div>
-                @Html.TextBoxFor(model => model.Username)
-            </div>
-            <div>
-                @Html.PasswordFor(model => model.Password)
-            </div>
-        </fieldset>
+        <div>
+            @Html.TextBoxFor(model => model.Username)
+        </div>
+        <div>
+            @Html.PasswordFor(model => model.Password)
+        </div>
+        <div>
+            <button type="submit" id="btnLogin">Login</button>
+        </div>
     }
 </div>

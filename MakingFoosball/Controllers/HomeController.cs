@@ -12,6 +12,7 @@ namespace MakingFoosball.Controllers
             _userRepo = userRepo;
         }
 
+        [Authorize]
         public ActionResult Index()
         {
             if (true)

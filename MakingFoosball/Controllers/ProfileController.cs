@@ -1,4 +1,5 @@
-﻿using DataAccess;
+﻿using System.Web.Security;
+using DataAccess;
 using DataAccess.Repositories;
 using System.Web.Mvc;
 using DataAccess.Repositories.Interfaces;
@@ -13,6 +14,23 @@ namespace MakingFoosball.Controllers
         public ProfileController(IUserRepository userRepo)
         {
             _userRepo = userRepo;
+        }
+
+        [HttpGet]
+        public ActionResult LogIn()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult LogIn(User user)
+        {
+            if (user.Username == "nowy")
+            {
+                FormsAuthentication.Authenticate("nowy", "test");
+            }
+            return RedirectToAction("Index", "Home");
+            return View();
         }
 
         [HttpGet]
