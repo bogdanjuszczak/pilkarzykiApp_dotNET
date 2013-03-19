@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataAccess;
+﻿using DataAccess;
 using DataAccess.Repositories.Interfaces;
 using Moq;
 using NUnit.Framework;
+using System.Linq;
 
 namespace Tests
 {
     [TestFixture]
-    class ProfileControlllerTests
+    class ProfileControllerTests
     {
         private IUserRepository _userRepo;
 
