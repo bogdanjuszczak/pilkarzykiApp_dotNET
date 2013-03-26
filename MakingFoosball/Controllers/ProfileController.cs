@@ -30,11 +30,9 @@ namespace MakingFoosball.Controllers
             return View();
         }
 
-        [HttpGet]
+        [AllowAnonymous]
         public ActionResult Register()
         {
-            var p = _userRepo.GetAll();
-
             return View();
         }
 
@@ -43,7 +41,7 @@ namespace MakingFoosball.Controllers
         {
             var userRepo = new UserRepository();
             //userRepo.CreateUser(user);
-            return Redirect("/UI/");
+            return Redirect("/Web/");
         }
     }
 }

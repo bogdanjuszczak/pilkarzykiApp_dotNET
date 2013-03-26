@@ -256,7 +256,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58054</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/UI</IISUrl>
+          <IISUrl>http://localhost/Web</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
           <IISAppRootUrl>http://localhost:99/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
