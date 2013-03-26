@@ -25,11 +25,8 @@ namespace MakingFoosball.Controllers
         [HttpPost]
         public ActionResult LogIn(User user)
         {
-            if (user.Username == "nowy")
-            {
-                FormsAuthentication.Authenticate("nowy", "test");
-            }
-            return RedirectToAction("Index", "Home");
+            if (FormsAuthentication.Authenticate(user.Username, user.Password))
+                FormsAuthentication.RedirectFromLoginPage(user.Username, false);
             return View();
         }
 
@@ -38,7 +35,7 @@ namespace MakingFoosball.Controllers
         {
             var p = _userRepo.GetAll();
 
-            return View();            
+            return View();
         }
 
         [HttpPost]
