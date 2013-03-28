@@ -1,9 +1,12 @@
-﻿using System.Web.Security;
+﻿using System;
+using System.Web.Security;
 using DataAccess;
 using DataAccess.Repositories;
 using System.Web.Mvc;
 using DataAccess.Repositories.Interfaces;
 using System.Linq;
+using MakingFoosball.Models;
+using WebMatrix.WebData;
 
 namespace MakingFoosball.Controllers
 {
@@ -37,11 +40,26 @@ namespace MakingFoosball.Controllers
         }
 
         [HttpPost]
-        public ActionResult Register(User user)
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(RegisterModel user)
         {
-            var userRepo = new UserRepository();
-            //userRepo.CreateUser(user);
-            return Redirect("/Web/");
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    WebSecurity.CreateAccount(user.UserName, user.Password);
+                    WebSecurity.Login(user.UserName, user.Password);
+                    return RedirectToAction("Index", "Home");
+                }
+                //TODO: Change Exception to MembershipCreateUserException
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "User account couldn't be registered.");
+                }   
+            }
+
+            return View(user);
         }
     }
 }
