@@ -15,12 +15,16 @@ namespace MakingFoosball.Controllers
 
         public ActionResult Index()
         {
+            var userModel = User.Identity.Name;
+            //Membership.GetUser()
             //if (User.Identity.IsAuthenticated)
-            //    ViewBag.IsUserAuthenticated = false;
+            //    ViewBag.User = User;
             //else
             //{
             //    ViewBag["IsUserAuthenticated"] = false;
             //}
+
+
 
             return View();
         }

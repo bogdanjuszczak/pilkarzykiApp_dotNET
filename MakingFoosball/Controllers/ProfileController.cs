@@ -1,4 +1,6 @@
 ﻿using DataAccess;
+using DataAccess.Helpers;
+using DataAccess.Models;
 using DataAccess.Repositories.Interfaces;
 using System.Web.Mvc;
 using System.Web.Security;
@@ -21,11 +23,10 @@ namespace MakingFoosball.Controllers
         }
 
         [HttpPost]
-        public ActionResult LogIn(User user)
+        //TODO: Change User to view-specific one
+        public void LogIn(LoginModel user)
         {
-            if (FormsAuthentication.Authenticate(user.Username, user.Password))
-                FormsAuthentication.RedirectFromLoginPage(user.Username, false);
-            return View();
+            LoginHelper.Login(user);
         }
 
         [AllowAnonymous]

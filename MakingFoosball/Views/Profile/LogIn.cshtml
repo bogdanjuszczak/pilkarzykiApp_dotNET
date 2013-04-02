@@ -1,4 +1,4 @@
-﻿@model DataAccess.User
+﻿@model DataAccess.Models.LoginModel
 
 @{
     ViewBag.Title = "LogIn";
@@ -10,10 +10,13 @@
     @using (Html.BeginForm())
     {
         <div>
-            @Html.TextBoxFor(model => model.Username)
+            @Html.TextBoxFor(model => model.UserName)
         </div>
         <div>
             @Html.PasswordFor(model => model.Password)
+        </div>
+        <div>
+            @Html.CheckBoxFor(model => model.RememberMe)
         </div>
         <div>
             <button type="submit" id="btnLogin">Login</button>

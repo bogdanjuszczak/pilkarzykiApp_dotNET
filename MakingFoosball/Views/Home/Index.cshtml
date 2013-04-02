@@ -8,14 +8,12 @@
     <link href="~/Content/CSS/home.css" rel="stylesheet" />
 }
 
-@*<a href='@Url.Action("Create", "Profile")'>*@
 <div class="menu-square">
     @{
-        //Html.RenderPartial(ViewBag.IsUserAuthenticated ? "_UserProfile" : "_LoginOrRegister");
-        Html.RenderPartial(User.Identity.IsAuthenticated ? "_UserProfile" : "_LoginOrRegister");
+        Html.RenderPartial(Request.IsAuthenticated ? "_UserProfile" : "_LoginOrRegister");
     }
 </div>
-@*</a>*@
+
 <div class="menu-square grayed">
     <div class="menu-option-text">
         Stats
