@@ -1,9 +1,7 @@
-﻿using System.Web.Security;
-using DataAccess;
-using DataAccess.Repositories;
-using System.Web.Mvc;
+﻿using DataAccess;
 using DataAccess.Repositories.Interfaces;
-using System.Linq;
+using System.Web.Mvc;
+using System.Web.Security;
 
 namespace MakingFoosball.Controllers
 {
@@ -31,6 +29,7 @@ namespace MakingFoosball.Controllers
         }
 
         [AllowAnonymous]
+        [HttpGet]
         public ActionResult Register()
         {
             return View();
@@ -39,9 +38,24 @@ namespace MakingFoosball.Controllers
         [HttpPost]
         public ActionResult Register(User user)
         {
-            var userRepo = new UserRepository();
-            //userRepo.CreateUser(user);
-            return Redirect("/Web/");
+            if (ModelState.IsValid)
+            {
+                // Attempt to register the user
+                MembershipCreateStatus createStatus;
+                Membership.CreateUser(user.Username, user.Password, null, null, null, true, null, out createStatus);
+
+                if (createStatus == MembershipCreateStatus.Success)
+                {
+                    FormsAuthentication.SetAuthCookie(user.Username, false);
+                    return RedirectToAction("Index", "Home");
+                }
+                //TODO: Handle errors
+                //ModelState.AddModelError("", ErrorCodeToString(createStatus));
+                ModelState.AddModelError("", "Something went wrong!");
+            }
+
+            // If we got this far, something failed, redisplay form
+            return View(user);
         }
     }
 }

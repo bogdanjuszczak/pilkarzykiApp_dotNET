@@ -11,7 +11,8 @@
 @*<a href='@Url.Action("Create", "Profile")'>*@
 <div class="menu-square">
     @{
-        Html.RenderPartial(ViewBag.IsUserAuthenticated ? "_UserProfile" : "_LoginOrRegister");
+        //Html.RenderPartial(ViewBag.IsUserAuthenticated ? "_UserProfile" : "_LoginOrRegister");
+        Html.RenderPartial(User.Identity.IsAuthenticated ? "_UserProfile" : "_LoginOrRegister");
     }
 </div>
 @*</a>*@

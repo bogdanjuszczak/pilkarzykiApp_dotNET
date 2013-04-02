@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using System.Web.Security;
 using DataAccess.Repositories.Interfaces;
 
 namespace MakingFoosball.Controllers
@@ -12,15 +13,14 @@ namespace MakingFoosball.Controllers
             _userRepo = userRepo;
         }
 
-        [Authorize]
         public ActionResult Index()
         {
-            if (true)
-                ViewBag.IsUserAuthenticated = false;
-            else
-            {
-                ViewBag["IsUserAuthenticated"] = false;
-            }
+            //if (User.Identity.IsAuthenticated)
+            //    ViewBag.IsUserAuthenticated = false;
+            //else
+            //{
+            //    ViewBag["IsUserAuthenticated"] = false;
+            //}
 
             return View();
         }

@@ -15,7 +15,7 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="100" />
     <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="100" />
-    <Property Name="Avatar" Type="varbinary(max)" Nullable="true" />
+    <Property Name="Role" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -31,7 +31,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="Username" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
           <Property Name="Password" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
-          <Property Name="Avatar" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Type="String" Name="Role" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -45,7 +45,7 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

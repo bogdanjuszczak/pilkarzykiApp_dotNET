@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, and Azure
 -- --------------------------------------------------
--- Date Created: 02/18/2013 19:44:03
--- Generated from EDMX file: C:\VS Projects\MakingFoosball_WEB\DataAccess\FoosballDataModel.edmx
+-- Date Created: 04/02/2013 17:40:35
+-- Generated from EDMX file: C:\VS Projects\Foosball_WEB\DataAccess\FoosballDataModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -35,7 +35,7 @@ CREATE TABLE [dbo].[Users] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [Username] nvarchar(100)  NOT NULL,
     [Password] nvarchar(100)  NOT NULL,
-    [Avatar] varbinary(max)  NULL
+    [Role] nvarchar(max)  NOT NULL
 );
 GO
 
