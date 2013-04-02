@@ -1,37 +1,22 @@
-﻿@model MakingFoosball.Models.RegisterModel
+﻿@model DataAccess.User
 
 @{
     ViewBag.Title = "Register";
     Layout = "~/Views/Shared/_MasterLayout.cshtml";
 }
 
-<hgroup class="title">
-    <h1>@ViewBag.Title</h1>
-    <h2>Register new account</h2>
-</hgroup>
-
-
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-    @Html.ValidationSummary()
-    
-    <fieldset>
-        <legend>Registration form</legend>
-        <ul>
-            <li>
-                @Html.LabelFor(model => model.UserName)
-                @Html.TextBoxFor(model => model.UserName)
-            </li>
-            <li>
-                @Html.LabelFor(model => model.Password)
-                @Html.PasswordFor(model => model.Password)
-            </li>
-            <li>
-                @Html.LabelFor(model => model.ConfirmPassword)
-                @Html.PasswordFor(model => model.ConfirmPassword)
-            </li>
-        </ul>
-        <button type="submit" id="btnRegister">Register</button>
-    </fieldset>
-}
+<h2>Register</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.TextBoxFor(model => model.Username)
+        </div>
+        <div>
+            @Html.PasswordFor(model => model.Password)
+        </div>
+        <div>
+            <button type="submit" id="btnRegister">Register</button>
+        </div>
+    }
+</div>

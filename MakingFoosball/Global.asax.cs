@@ -6,7 +6,6 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using WebMatrix.WebData;
 
 namespace MakingFoosball
 {
@@ -17,8 +16,6 @@ namespace MakingFoosball
     {
         protected void Application_Start()
         {
-            WebSecurity.InitializeDatabaseConnection("FoosballAppEntities", "System.Data.SqlClient", "MembershipAccounts", "UserId", "UserName", autoCreateTables: true);
-
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
