@@ -10,7 +10,7 @@
 
 <div class="menu-square">
     @{
-        Html.RenderPartial(Request.IsAuthenticated ? "_UserProfile" : "_LoginOrRegister");
+        Html.RenderAction("LoginRenderAction");
     }
 </div>
 

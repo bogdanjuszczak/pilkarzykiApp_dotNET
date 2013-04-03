@@ -15,6 +15,9 @@ namespace MakingFoosball.Controllers
 
         public ActionResult Index()
         {
+
+
+
             var userModel = User.Identity.Name;
             //Membership.GetUser()
             //if (User.Identity.IsAuthenticated)
@@ -27,6 +30,14 @@ namespace MakingFoosball.Controllers
 
 
             return View();
+        }
+
+        [ChildActionOnly]
+        public ActionResult LoginRenderAction()
+        {
+            if (User.Identity.IsAuthenticated)
+                return PartialView("_UserProfile");
+            return PartialView("_LoginOrRegister");
         }
     }
 }
