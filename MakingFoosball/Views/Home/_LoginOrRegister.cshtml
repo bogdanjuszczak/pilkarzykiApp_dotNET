@@ -1,4 +1,4 @@
-﻿@model DataAccess.User
+﻿@model DataAccess.Models.LoginModel
 
 @using (Html.BeginForm())
 { 
@@ -8,7 +8,7 @@
             @Html.Label("Login:")
         </div>
         <div>
-            @Html.TextBoxFor(model => model.Username)
+            @Html.TextBoxFor(model => model.UserName)
         </div>
         <div>
             @Html.Label("Password:")

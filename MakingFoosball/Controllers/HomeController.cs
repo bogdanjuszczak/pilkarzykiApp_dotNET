@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
-using System.Web.Security;
+using DataAccess.Helpers;
+using DataAccess.Models;
 using DataAccess.Repositories.Interfaces;
 
 namespace MakingFoosball.Controllers
@@ -13,23 +14,17 @@ namespace MakingFoosball.Controllers
             _userRepo = userRepo;
         }
 
+        [HttpGet]
         public ActionResult Index()
         {
-
-
-
             var userModel = User.Identity.Name;
-            //Membership.GetUser()
-            //if (User.Identity.IsAuthenticated)
-            //    ViewBag.User = User;
-            //else
-            //{
-            //    ViewBag["IsUserAuthenticated"] = false;
-            //}
-
-
-
             return View();
+        }
+
+        [HttpPost]
+        public void Index(LoginModel user)
+        {
+            LoginHelper.Login(user);
         }
 
         [ChildActionOnly]
